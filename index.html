@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>TempleOS Tribute</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="icon" type="image/png" href="images/Logo128x152.jpg" />
+
+</head>
+
+<body>
+
+    <!--Global Nav-->
+
+    <div class="globalnav">
+
+        <!--Status bar-->
+
+        <div class="topnav">
+
+            <div id="digital-clock">
+                <p id="today-js"></p>
+                <p id="month-js"></p>
+                <p id="date-js"></p>
+                <p id="time-js"></p>
+                <p id="fps-counter"></p>
+                <!-- <p id="year-js"></p> -->
+                <p style="text-align: right;margin-left: 635px;"><strong>ENTER</strong></p>
+            </div>
+
+        </div>
+
+        <!--Dropdown Menu-->
+
+        <div class="ddmenu">
+
+            <ul>
+                <li><a href="#">File</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Save</a></li>
+                        <li><a href="#">Save as</a></li>
+                        <li><a href="#">Abort</a></li>
+                        <li><a href="#">Exit</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Edit</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Undo</a></li>
+                        <li><a href="#">Cut</a></li>
+                        <li><a href="#">Copy</a></li>
+                        <li><a href="#">Paste</a></li>
+                        <li><a href="#">DelLine</a></li>
+                        <li><a href="#">FindReplace</a></li>
+                        <li><a href="#">FindNext</a></li>
+                        <li><a href="#">FindLast</a></li>
+                        <li><a href="#">GoLine</a></li>
+                        <li><a href="#">GoBegin</a></li>
+                        <li><a href="#">GoEnd</a></li>
+                        <li><a href="#">GoLeft</a></li>
+                        <li><a href="#">GoRight</a></li>
+                        <li><a href="#">GoLBrace</a></li>
+                        <li><a href="#">GoRBrace</a></li>
+                        <li><a href="#">Macro</a></li>
+                        <li><a href="#">PlayMacro</a></li>
+                        <li><a href="#">AutoSaveToggle</a></li>
+                    </ul>
+
+                </li>
+
+                <li><a href="#">Insert</a>
+                    <ul class="dropdown">
+                        <li><a href="#">TextWidgets</a></li>
+                        <li><a href="#">GraphicResource</a></li>
+                        <li><a href="#">FileName</a></li>
+                        <li><a href="#">DirName</a></li>
+                        <li><a href="#">GodWord</a></li>
+                        <li><a href="#">GodBiblePassage</a></li>
+                        <li><a href="#">GodSong</a></li>
+                        <li><a href="#">GodDoodle</a></li>
+                        <li><a href="#">IndentIn</a></li>
+                        <li><a href="#">IndentOut</a></li>
+                        <li><a href="#">WordWrapOn</a></li>
+                        <li><a href="#">WordWrapOff</a></li>
+                        <li><a href="#">UnderlineOn</a></li>
+                        <li><a href="#">UnderlineOff</a></li>
+                        <li><a href="#">BlinkOn</a></li>
+                        <li><a href="#">BlinkOff</a></li>
+                        <li><a href="#">InnertOn</a></li>
+                        <li><a href="#">InnertOff</a></li>
+                        <li><a href="#">SuperToggle</a></li>
+                        <li><a href="#">SubToggle</a></li>
+                        <li><a href="#">PageBreak</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Program</a>
+                    <ul class="dropdown">
+                        <li><a href="#">CodeTools</a></li>
+                        <li><a href="#">Include</a></li>
+                        <li><a href="#">AdamInclude</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">View</a>
+                    <ul class="dropdown">
+                        <li><a href="#">PlainText</a></li>
+                        <li><a href="#">Collapse</a></li>
+                        <li><a href="#">Uncollapse</a></li>
+                        <li><a href="#">Border</a></li>
+                        <li><a href="#">FileMgr</a></li>
+                        <li><a href="#">Search</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Help</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Draggable Pop Up -->
+
+    <div id="popup-wrapper">
+        <div id="popup">
+
+            <div class="windowBarPU">
+
+                <span class="term-popup">Term</span>
+
+                <span class="menu-popup">MENU</span>
+
+                <!-- Text Slider -->
+
+                <div id="title-popup">
+                    <div id="title-text">templeOStribute/index.html...</div>
+                </div>
+
+                <span id='close-popup' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>[X]</span>
+
+            </div>
+
+
+            <center>
+
+                <p style="margin-top: 25px; margin-bottom: 15px; color:#0000a8">TempleOS Tribute Page 1.0</p>
+                <img src="images/templeos_logo.jpg" alt="TempleOS_lOGOL" width="200" height="246">
+                <p></p>
+                &nbsp;
+                <p>Divine Intellect,</p>
+                <p>Public Domain, </p>
+                <p>64-Bit, </p>
+                <p>Kept Perfect, </p>
+                <p>Operating System</p>
+                &nbsp;
+                <p style="color: #a80000;">Trivial Solutions</p>
+                &nbsp;
+                <div style="text-align:left;">
+                    &nbsp;
+                    <p style="color: #00a800;">Tip of day</p>
+                    &nbsp;
+                    <p>* Turn-off or reboot (<b style="color: #00a800;">&lt;CTRL-ALT-DEL&gt;</b>) at</p>
+                    <p>any time, except during disk writes.</p>
+                    <p>Writes are not cached.</p>
+                    &nbsp;
+                    <p><b style="color: #00a800;">&lt;SHIFT-ESC&gt; to exit.</b></p>
+                </div>
+
+            </center>
+        </div>
+    </div>
+    </a>
+
+    <!-- MAIN CONTENT -->
+
+    <div class="main">
+
+        <!-- Window A -->
+
+        <input type="checkbox" id="windowControl" />
+        <label class="btn" for="windowControl">
+
+        <div class="window">
+
+            <div class="windowBar">
+
+                <span class="term">Term</span>
+    
+                <span class="menuButton">MENU</span>
+    
+                <!-- Text Slider -->
+                        
+                <div id="title">
+                    <div id="title-text">C:/Doc/PersonalMenu.DD.Z...</div>
+                </div>
+    
+                <span id='closeA' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>[X]</span>
+    
+            </div>
+            
+            &nbsp;
+            <p style="text-align: center; color: rgb(218, 50, 173);">TempleOS v5.03</p>
+            &nbsp;
+            <p style="text-align: center;">Public Domain Operating System</p>
+            &nbsp; 
+            <div style="display: flex; justify-content: space-evenly;"><u style=""><p style="color: #a80000">Help and index, </p></u> <u><p style="color: #a80000">Quick Start: Cmd line</p></u> </div>
+            &nbsp; 
+            <p style="color: #5757ff;"><u>Cd:Dir:└</u></p>
+            <p style="color: #5757ff;"><u>Cd("::/Demo"):Dir:└</u></p>
+            <p style="color: #5757ff;"><u>Cd("::/Demo"/Graphics"):Dir:└</u></p>
+            <p style="color: #5757ff;"><u>Cd("::/Demo"/Snd"):Dir:└</u></p>
+            <p style="color: #5757ff;"><u>Cd("::/Demo"/DolDoc"):Dir:└</u></p>
+            <p style="color: #5757ff;"><u>Cd("::/Demo"/Games"):Dir:└</u></p>
+            <p style="color: #5757ff;"><u>Cd("::/Demo"/MultiCore"):Dir:└</u></p>
+            <p style="color: #5757ff;"><u>Cd("::/Demo"/Asm"):Dir:└</u></p>
+            <p style="color: #5757ff;"><u>Cd("::/Doc"):Dir:└</u></p>
+            <p style="color: #5757ff;"><u>Cd("::/Demo"/Lectures"):Dir:└</u></p>
+            <p style="color: #5757ff;"><u>Cd("::/Apps"):Dir:└</u></p>
+            &nbsp; 
+            <ul style="background-color: white;">
+                <li><p>Use the Pullydown menu at the top of the sorn to learn commands, or for finding the keyboard controls to games.</p></li>
+                &nbsp;
+                <li><p>You can adjust the mouse movement rate by setting global vars in yout start-up file. See <u>mouse scale</u>.</p></li>
+                &nbsp;
+                <li><p>You can set your local time zone by setting the <u>local time offset</u> global var in a strat-up file. It's units are <u>CDATE_FREQ</u>. See <u>localtime</u></p></li>
+                <li><p>Get rid of this msg <u>here</u>.</p></li>
+            </ul>
+            &nbsp; 
+            <p style="color: #5757ff;">Take Tour(y or n)?</p>
+        </div>
+
+        </label>
+
+        <!-- Window B -->
+
+        <input type="checkbox" id="windowControlB" />
+        <label class="btn" for="windowControlB">
+
+            <div class="window">
+
+                <div class="windowBar">
+    
+                    <span class="term">Term</span>
+        
+                    <span class="menuButton">MENU</span>
+        
+                    <!-- Text Slider -->
+                            
+                    <div id="title">
+                        <div id="title-text">C:/Doc/PersonalMenu.DD.Z...</div>
+                    </div>
+        
+                    <span id='closeB' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>[X]</span>
+        
+                </div>
+                
+                &nbsp;
+                <p style="text-align: center; color: rgb(218, 50, 173);">TempleOS v5.03</p>
+                &nbsp;
+                <p style="text-align: center;">Public Domain Operating System</p>
+                &nbsp; 
+                <div style="display: flex; justify-content: space-evenly;"><u style=""><p style="color: #a80000">Help and index, </p></u> <u><p style="color: #a80000">Quick Start: Cmd line</p></u> </div>
+                &nbsp; 
+                <p style="color: #5757ff;"><u>Cd:Dir:└</u></p>
+                <p style="color: #5757ff;"><u>Cd("::/Demo"):Dir:└</u></p>
+                <p style="color: #5757ff;"><u>Cd("::/Demo"/Graphics"):Dir:└</u></p>
+                <p style="color: #5757ff;"><u>Cd("::/Demo"/Snd"):Dir:└</u></p>
+                <p style="color: #5757ff;"><u>Cd("::/Demo"/DolDoc"):Dir:└</u></p>
+                <p style="color: #5757ff;"><u>Cd("::/Demo"/Games"):Dir:└</u></p>
+                <p style="color: #5757ff;"><u>Cd("::/Demo"/MultiCore"):Dir:└</u></p>
+                <p style="color: #5757ff;"><u>Cd("::/Demo"/Asm"):Dir:└</u></p>
+                <p style="color: #5757ff;"><u>Cd("::/Doc"):Dir:└</u></p>
+                <p style="color: #5757ff;"><u>Cd("::/Demo"/Lectures"):Dir:└</u></p>
+                <p style="color: #5757ff;"><u>Cd("::/Apps"):Dir:└</u></p>
+
+                &nbsp; 
+                <div style="display: block;     margin: auto 3855px auto auto;"></div>
+            </div>
+    </label>
+    </div>
+</body>
+<script src="js/function.js" type="text/javascript"></script>
+
+</html>
